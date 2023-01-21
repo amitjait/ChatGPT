@@ -1,0 +1,44 @@
+body{
+    margin: 0px auto;
+    /* text-align: center; */
+}
+
+.chatGPT{
+    margin: 0px auto;
+    /* background-color: blue; */
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 5px;
+}
+
+.imgFor{
+    /* margin-top: 2rem; */
+    width: 20rem;
+    /* height: 50rem; */
+}
+
+.ansDiv{
+    margin-top: 2rem;
+    display: flex;
+    /* margin: 0px auto; */
+    margin-left: 2rem;
+    width: 50%;
+    /* border: 1px solid black; */
+    /* display: none; */
+}
+
+.ansDiv p{
+    margin-top: 12rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+.speak{
+    margin-top: 2rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+#inp{
+    
+}
