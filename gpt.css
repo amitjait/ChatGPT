@@ -1,15 +1,22 @@
 body{
     margin: 0px auto;
-    /* text-align: center; */
+    background-color: blanchedalmond;
 }
 
 .chatGPT{
+    padding-top: 1rem;
     margin: 0px auto;
-    /* background-color: blue; */
     margin-top: 2rem;
-    /* border: 1px solid black; */
+    width: 90%;
+    height: 12rem;
     text-align: center;
     border-radius: 5px;
+
+    background-color: rgb(22, 166, 255);
+    color: white;
+    box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.82);
+    outline: 5px solid rgba(212, 238, 255, 0.54);
+    outline-offset: 4px;
 }
 
 .imgFor{
@@ -19,26 +26,94 @@ body{
 }
 
 .ansDiv{
-    margin-top: 2rem;
     display: flex;
-    /* margin: 0px auto; */
-    margin-left: 2rem;
-    width: 50%;
-    /* border: 1px solid black; */
-    /* display: none; */
+    margin: 0px auto;
+    margin-top: 2rem;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Comic Sans MS;
+    background-color: lightcoral;
 }
 
 .ansDiv p{
-    margin-top: 12rem;
+    margin-top: 1rem;
     text-align: left;
     margin-left: 2rem;
+    height: inherit;
 }
 .speak{
+    display: flex;
+    margin: 0px auto;
     margin-top: 2rem;
-    text-align: left;
-    margin-left: 2rem;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2rem;
 }
 
 #inp{
-    
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    margin-right: 1rem;
+}
+
+#find{
+    margin-top: 1rem;
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#find:hover {
+	background-color:#5cbf2a;
+}
+#find:active {
+	position:relative;
+	top:1px;
+}
+
+#question{
+    border-radius: 5px;
+    border-color: wheat;
+    font-family: Comic Sans MS;
+    font-size: large;
+}
+
+#speakBtn{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #a1c3ff 5%, #4b86cf 100%);
+	background-color:#a1c3ff;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	padding:7px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+    height: 2.2rem;
+    margin-right: 2rem;
+}
+
+#speakBtn:hover {
+	background:linear-gradient(to bottom, #4b86cf 5%, #a1c3ff 100%);
+	background-color:#4b86cf;
+}
+#speakBtn:active {
+	position:relative;
+	top:1px;
 }
