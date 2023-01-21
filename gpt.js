@@ -62,9 +62,11 @@ function findAns(){
 
             let btn = document.createElement('button');
             btn.innerText = "Speak Text";
+            btn.setAttribute('id', 'speakBtn');
             
 
             let speakDiv = document.getElementById('speak');
+            speakDiv.innerHTML = "";
 
             speakDiv.appendChild(input);
             speakDiv.appendChild(btn);
