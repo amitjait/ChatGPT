@@ -7,13 +7,6 @@ if(sbtn != null){
     sbtn.addEventListener('click', signUp);
 }
 
-// console.log("IN");
-
-
-
-
-
-// var map = new Map();
 let id = 0;
 
 function signUp(event){
